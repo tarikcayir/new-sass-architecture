@@ -1,0 +1,66 @@
+///*------------------------------------*\
+//    Welcome to New SASS Architecture
+//    
+//    https://gist.github.com/ademilter/746cb307f14bd4e32de1#file-scss-klasor-duzeni (Turkish Guide)
+//\*------------------------------------*/
+
+@charset "UTF-8";
+
+///*------------------------------------*\
+//    #OPTION
+//    
+//    values, function, mixin etc.
+//\*------------------------------------*/
+@import 'option/__option';
+
+
+///*------------------------------------*\
+//    #HELPER
+//    
+//    Helper files. normalize etc.
+//\*------------------------------------*/
+@import 'helper/__helper';
+
+
+///*------------------------------------*\
+//    #PLUGIN
+//    
+//    3. part plugin style files. 
+//\*------------------------------------*/
+@import 'plugin/__plugin';
+
+
+///*------------------------------------*\
+//    #UTILITY
+//    
+//    Yes, I'am new Steve Jobs! :)
+//    
+//    icons, typograhpy etc.
+//\*------------------------------------*/
+@import 'utility/__utility';
+
+
+///*------------------------------------*\
+//    #COMPONENT
+//    
+//    form elements (button, textbox, checkbox, input etc.), grid etc.
+//\*------------------------------------*/
+@import 'component/__component';
+
+
+///*------------------------------------*\
+//    #GLOBAL
+//    
+//    header, footer etc.
+//\*------------------------------------*/
+@import 'global/__global';
+
+
+///*------------------------------------*\
+//    #PAGES
+//    
+//    Developer was here!
+//    
+//    Custom page styles. home, about, ads etc.
+//\*------------------------------------*/
+@import 'pages/__pages';
